@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 25rem;
+    width: 40rem;
+    border: 3px solid black;
+    margin: auto auto;
+    margin-top: 10rem;
+    padding: 2rem;
+}
+.main>.target{
+    text-align: center;
+}
+.score{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.current{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+.buttons{
+    justify-content: space-between;
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+.buttons>button{
+    padding: 0.5rem;
+}
+.buttons>button:nth-child(2){
+    margin-left: 18rem;
+    
+}
